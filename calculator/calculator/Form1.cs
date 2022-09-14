@@ -16,5 +16,40 @@ namespace calculator
         {
             InitializeComponent();
         }
+
+        private void numButton_click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Add_click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clean_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CE_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void plusMinus_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
