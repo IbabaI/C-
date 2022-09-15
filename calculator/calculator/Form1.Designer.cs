@@ -48,8 +48,8 @@
             this.CE = new System.Windows.Forms.Button();
             this.back = new System.Windows.Forms.Button();
             this.div = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.screen1 = new System.Windows.Forms.Label();
+            this.screen2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button0
@@ -312,26 +312,26 @@
             this.div.UseVisualStyleBackColor = false;
             this.div.Click += new System.EventHandler(this.Add_click);
             // 
-            // label1
+            // screen1
             // 
-            this.label1.Font = new System.Drawing.Font("카페24 동동", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(12, 73);
-            this.label1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(318, 55);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "0";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.screen1.Font = new System.Drawing.Font("카페24 동동", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.screen1.Location = new System.Drawing.Point(12, 73);
+            this.screen1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
+            this.screen1.Name = "screen1";
+            this.screen1.Size = new System.Drawing.Size(318, 55);
+            this.screen1.TabIndex = 1;
+            this.screen1.Text = "0";
+            this.screen1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label2
+            // screen2
             // 
-            this.label2.Font = new System.Drawing.Font("카페24 동동", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(12, 18);
-            this.label2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(318, 35);
-            this.label2.TabIndex = 1;
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.screen2.Font = new System.Drawing.Font("카페24 동동", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.screen2.Location = new System.Drawing.Point(12, 18);
+            this.screen2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
+            this.screen2.Name = "screen2";
+            this.screen2.Size = new System.Drawing.Size(318, 35);
+            this.screen2.TabIndex = 1;
+            this.screen2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Form1
             // 
@@ -339,8 +339,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(342, 539);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.screen2);
+            this.Controls.Add(this.screen1);
             this.Controls.Add(this.div);
             this.Controls.Add(this.multi);
             this.Controls.Add(this.sub);
@@ -389,8 +389,8 @@
         private System.Windows.Forms.Button CE;
         private System.Windows.Forms.Button back;
         private System.Windows.Forms.Button div;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label screen1;
+        private System.Windows.Forms.Label screen2;
     }
 }
 
